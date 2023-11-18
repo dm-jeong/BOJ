@@ -20,8 +20,8 @@ public class Main {
 		Scanner sc = new Scanner(System.in);
 		
 //		숫자 2개를 입력받기 위한 변수 선언
-		int first = sc.nextInt();
-		int second = sc.nextInt();
+		long first = sc.nextInt();
+		long second = sc.nextInt();
 		
 //		계산하여 출력
 		System.out.println((first + second)*(first-second) );
